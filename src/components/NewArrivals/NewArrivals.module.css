@@ -1,0 +1,26 @@
+.heading {
+    color: #000;
+    text-align: justify;
+    font-family: Itim;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.new_arrival_cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.newarrival {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

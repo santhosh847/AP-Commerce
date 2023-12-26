@@ -1,0 +1,22 @@
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #1F1F1F;
+    padding: 8px 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 20px;
+}

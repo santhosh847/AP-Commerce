@@ -1,0 +1,84 @@
+.footer {
+    background-color: var(--text-primary);
+    min-height: 300px;
+    color: #FFF;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer_contents{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+.address  h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+
+.address  h6{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.newsletter h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-align: center;
+}
+
+.newsletter input {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 340px;
+    color: #FFF;
+    background-color: transparent;
+    margin-top:10px;
+}
+
+.newsletter input:focus {
+    border: 1px solid rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.newsletter button {
+    background-color: #898989;
+    color: var(--text-primary);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
